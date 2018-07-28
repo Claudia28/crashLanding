@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -34,13 +35,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li><a href="/">Home  |</li>
-                            <li><a href="/about">About  |</li>
-                                <li><a href="/services">Services  |</li>
-                                    <li><a href="/browse">Browse  |</li>
-                                        <li><a href="/posts">Reviews  |</li>
-                                            <li><a href="/posts/create">Create a Review  |</li>
-                                                <li><a href="/dashboard">Dashboard  </li>
+                        
+                            <li><a href="/about">About   |</li>
+                            <li><a href="/services">|   Services    |</li>
+                            <li><a href="/browse">|   Browse   |</li>
+                            <li><a href="/posts">|   Reviews   |</li>
+                            <li><a href="/posts/create">|   Create a Review   |</li>
+                            <li><a href="/dashboard">|   Dashboard</li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
